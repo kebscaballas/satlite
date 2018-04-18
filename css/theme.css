@@ -9,20 +9,67 @@
 #daceba shadow
 #272b28 bg */
 
+* {
+    color: #4c4c4c;
+}
+
+h3 {
+    color: #ef6635;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 a.link-btn {
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 700;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 20px;
-    padding: 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+a.link-btn.small {
+    font-size: 11px;
+    padding: 7px 25px;
+}
+
+a.link-btn.full-width {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+a.link-btn.white-bg {
+    background-color: #ffffff;
+}
+
+
+a.link-btn.white {
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 a.link-btn.dark {
     color: #da3314;
+    border-color: #da3314;
 }
 
 a.link-btn.light {
-    color: #f48e0c;
+    color: #f27a08;
+    border-color: #f27a08;
+}
+
+h3.emphasized-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #db3415;
+    padding: 15px;
+    margin-top: -29px;
+    box-shadow: 0 9px 2px -1px #e3d8c5;
 }
 
 #page-content {
@@ -101,8 +148,11 @@ a.link-btn.light {
 #page-footer {
     background: url('./../images/satlite-footer-background.jpg') center no-repeat;
     background-size: cover;
-    color: #7b797b;
     padding: 75px 0;
+}
+
+#page-footer p {
+    color: #7b797b;
 }
 
 #page-footer>.container>.row>div {

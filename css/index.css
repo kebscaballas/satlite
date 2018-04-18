@@ -1,0 +1,124 @@
+#about {
+	padding: 60px 0 130px;
+}
+
+#about p {
+    margin-bottom: 30px;
+}
+
+#kits {
+	padding-bottom: 120px;
+	background-color: #ebebeb;
+}
+
+#kits .link-btn {
+    padding: 7px 50px;
+}
+
+#kits .items-container {
+	margin-top: -60px;
+}
+
+#kits .items-container .item {
+	background-color: #f27a08;
+    padding: 20px 20px 45px;
+    border-radius: 15px;
+    box-shadow: 0 9px 2px -1px #e3d8c5;
+    position: relative;
+}
+
+#kits .items-container .item .item-name {
+    color: #ffffff;
+}
+
+#kits .items-container .item .item-description {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#kits .items-container .item .price-container {
+    position: relative;
+}
+
+#kits .items-container .item .price-container .item-price {
+    font-size: 55px;
+    line-height: 34px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #fccd4d;
+}
+
+#kits .items-container .item .best-offer-icon {
+	min-width: 55px;
+    width: 100%;
+    max-width: 70px;
+}
+
+#kits .items-container .item .cta-container {
+	position: absolute;
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+}
+
+#kits .items-container .item .price-container .price-exclusive {
+    margin-bottom: 0;
+    margin-left: 3px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    color: #fccd4d;
+}
+
+#load-values {
+	padding-bottom: 60px;
+}
+
+#load-values .items-container {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+#load-values .items-container .item .channel-count {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#load-values .items-container .item .denomination-img {
+	margin-bottom: 30px;
+}
+
+#load-values .items-container .item .channels-container .channel {
+	margin-bottom: 20px;
+}
+
+#faq-contacts-nav {
+	background-color: #f48e0c;
+	padding: 70px 0;
+}
+
+#faq-contacts-nav p {
+	margin: 25px 0;
+	color: #ffffff;
+}
+
+@media (max-width: 575px) {
+	#faq-contacts-nav .row>div:nth-child(n+2) img {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	#kits {
+		padding-bottom: 40px;
+	}
+
+	#kits .items-container .item {
+		margin-bottom: 80px;
+	}
+
+	#load-values .items-container .item:nth-child(n+2) {
+		padding-top: 50px;
+	}
+}
