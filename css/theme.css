@@ -1,0 +1,242 @@
+/*Colors used: 
+#f48e0c main text,bg
+#fccd4d sub text
+#ffffff text, bg
+#ebebeb bg
+#7b797b bg
+#d6d6d6 complementary text
+#da3314 bg
+#daceba shadow
+#272b28 bg */
+
+a.link-btn {
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+a.link-btn.dark {
+    color: #da3314;
+}
+
+a.link-btn.light {
+    color: #f48e0c;
+}
+
+#page-content {
+    padding-top: 70px;
+}
+
+#page-navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: #f48e0c;
+}
+
+#page-navbar .menu-toggle-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+#page-navbar a {
+    color: #ffffff;
+}
+
+#page-navbar a.active {
+    font-weight: 700;
+}
+
+#page-navbar .filler.white {
+    background-color: #ffffff;
+}
+
+#page-navbar .filler.orange {
+    background-color: #f48e0c;
+}
+
+#page-navbar .navbar-content .brand-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+}
+
+#page-navbar .navbar-content .brand-container img {
+    max-height: 60px;
+}
+
+#page-navbar .navbar-content .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f48e0c;
+    overflow: hidden;
+}
+
+#page-navbar .navbar-content .menu .item {
+    padding: 5px 5px 5px 35px;
+}
+
+#page-navbar .navbar-content .menu .item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+#page-footer {
+    background: url('./../images/satlite-footer-background.jpg') center no-repeat;
+    background-size: cover;
+    color: #7b797b;
+    padding: 75px 0;
+}
+
+#page-footer>.container>.row>div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#page-footer .info-thumbnail {
+    width: 100%;
+    max-width: 20px;
+}
+
+#page-footer .contact-info {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#page-footer .heading {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#page-footer .search-field-container {
+    position: relative;
+    margin-top: 35px;
+    height: 25px;
+    width: 100%;
+}
+
+#page-footer .search-field-container #search-field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px 0 10px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #7b797b;
+}
+
+#page-footer .search-field-container #search-submit {
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    right: 10px;
+}
+
+#page-copyright {
+    padding: 20px 0;
+    background-color: #272b28;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#page-copyright p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    #page-navbar .navbar-content .menu.hidden {
+        border-top: 0;
+        border-bottom: 0;
+        height: 0;
+        transition: height 300ms;
+    }
+
+    #page-navbar .navbar-content .menu {
+        border-top: 2px solid #ef8b0c;
+        border-bottom: 2px solid #ef8b0c;
+        height: 208px;
+        transition: height 300ms;
+    }
+    
+    #page-navbar .navbar-content .menu .item {
+        background-color: rgba(255, 157, 32, 0);
+        transition: background-color 300ms;
+    }
+
+    #page-navbar .navbar-content .menu .item:hover {
+        background-color: rgba(255, 157, 32, 1);
+        transition: background-color 300ms;
+    }
+}
+
+@media (min-width: 768px) {
+    #page-navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #page-navbar .menu-toggle-btn {
+        display: none;
+    }
+
+    #page-navbar .filler {
+        flex-grow: 1;
+        height: 100%;
+    }
+
+    #page-navbar .navbar-content {
+        display: flex;
+        flex-grow: 3;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+    }
+
+    #page-navbar .navbar-content .brand-container {
+        flex-grow: 1;
+        height: 100%;
+        width: unset;
+    }
+
+    #page-navbar .navbar-content .menu {
+        flex-grow: 4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+    }
+
+    #page-navbar .navbar-content .menu .item {
+        flex-grow: 1;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+
+    #page-navbar .navbar-content .menu .item a {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
