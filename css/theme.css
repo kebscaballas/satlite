@@ -1,3 +1,4 @@
+
 /*Colors used: 
 #f48e0c main text,bg
 #fccd4d sub text
@@ -13,11 +14,35 @@
     color: #4c4c4c;
 }
 
+.bold {
+    font-weight: 600;
+}
+
+.spacer-top {
+    margin-top: 10px;
+}
+
 h3 {
     color: #ef6635;
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+section.page-header {
+    background-color: #f27a08;
+    padding: 25px;
+}
+
+section.page-header h3 {
+    color: #ffffff;
+    margin: 0 0 0 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+section.page-header .page-icon {
+    max-width: 60px;
 }
 
 a.link-btn {
@@ -81,7 +106,7 @@ h3.emphasized-heading {
     width: 100%;
     height: 70px;
     z-index: 100;
-    background-color: #f48e0c;
+    background-color: #eaa409;
 }
 
 #page-navbar .menu-toggle-btn {
@@ -110,7 +135,7 @@ h3.emphasized-heading {
 }
 
 #page-navbar .filler.orange {
-    background-color: #f48e0c;
+    background-color: #eaa409;
 }
 
 #page-navbar .navbar-content .brand-container {
@@ -130,7 +155,7 @@ h3.emphasized-heading {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #f48e0c;
+    background-color: #eaa409;
     overflow: hidden;
 }
 
@@ -209,6 +234,12 @@ h3.emphasized-heading {
 
 #page-copyright p {
     margin-bottom: 0;
+}
+
+@media (max-width: 359px) {
+    .collapse-text {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 767px) {

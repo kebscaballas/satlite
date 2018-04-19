@@ -1,0 +1,40 @@
+#contact-details {
+	padding: 40px 0;
+}
+
+#contact-details .lead-in {
+	margin-bottom: 40px;
+}
+
+#contact-details .items-container>div {
+	padding-bottom: 20px;
+}
+
+#contact-details .item {
+	background-color: #faf1d9;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	height: 100%;
+}
+
+#contact-details .item .icon-container {
+	background-color: #fccd4d;
+	padding: 5px;
+	border-radius: 10px 0 0 10px;
+	width: 25%;
+}
+
+#contact-details .item .icon-container .contact-icon {
+	max-width: 55px;
+}
+
+#contact-details .item .item-content {
+	width: 75%;
+}
+
+#contact-details .item .item-content p {
+	flex-grow: 3;
+	flex-basis: 75%;
+	margin-bottom: 0;
+	padding: 10px;
+}
