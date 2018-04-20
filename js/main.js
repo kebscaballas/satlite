@@ -11,6 +11,10 @@ $(document).ready(function() {
 			$('#page-navbar .menu').removeClass('hidden');
 		}
 	});
+	
+	$('.accordion').on('hide.bs.collapse show.bs.collapse', '.accordion-item', function (e) {
+		$(this).toggleClass('active');
+	})
 
 	$('#page-navbar .menu-toggle-btn').on('click', function() {
 		$('#page-navbar .menu').toggleClass("hidden");
