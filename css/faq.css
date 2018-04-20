@@ -1,0 +1,111 @@
+#faq-container {
+    padding: 50px 0;
+}
+
+#faq-container .btn.btn-link {
+    white-space: unset;
+    padding: 0;
+}
+
+#faq-container .btn-group-vertical {
+    border-radius: 15px;
+}
+
+#faq-container .btn-secondary {
+    background-color: #4d4d4d;
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+#faq-container .btn-secondary:first-child {
+    border-radius: 9px 9px 0 0;
+}
+
+#faq-container .btn-secondary:last-child {
+    border-radius: 0 0 9px 9px;
+}
+
+#faq-container .btn-secondary.active {
+    background-color: #dddad7;
+}
+
+#faq-container #faq-accordion {
+    border: 1px solid #fdb20c;
+    border-radius: 9px;
+}
+
+#faq-container #faq-accordion .faq-item {
+    border: 0;
+}
+
+#faq-container #faq-accordion .faq-item .card-header {
+    padding: .75rem 2rem .75rem 1.25rem;
+    position: relative;
+    background-color: #dddad7;
+    border-color: #ffffff;
+    transition: background-color 400ms ease-out;
+}
+
+#faq-container #faq-accordion .faq-item:last-child .card-header {
+    border: 0;
+}
+
+#faq-container #faq-accordion .faq-item .card-header::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    content: "\f107";
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -moz-transform: translateY(-50%) rotate(90deg);
+    -o-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
+    transition: transform 400ms ease-out;
+}
+
+#faq-container #faq-accordion .faq-item.active .card-header::after {
+    color: #ffffff;
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    -moz-transform: translateY(-50%) rotate(0deg);
+    -o-transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(0deg);
+}
+
+#faq-container #faq-accordion .faq-item.active .card-header {
+    background-color: #f05a23;
+    color: #ffffff;
+}
+
+#faq-container #faq-accordion .faq-item:first-child,
+#faq-container #faq-accordion .faq-item:first-child .card-header {
+    border-radius: 9px 9px 0 0;
+}
+
+#faq-container #faq-accordion .faq-item:last-child,
+#faq-container #faq-accordion .faq-item:last-child .card-header {
+    border-radius: 0 0 9px 9px;
+}
+
+#faq-container #mobile-topic-list {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	background-color: #4d4d4d;
+	color: #ffffff;
+	border-radius: 9px;
+	padding: 5px 10px;
+}
+
+#faq-container #mobile-topic-list option {
+	color: #ffffff;
+}
