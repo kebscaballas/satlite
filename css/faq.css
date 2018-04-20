@@ -88,12 +88,14 @@
 
 #faq-container #faq-accordion .faq-item:first-child,
 #faq-container #faq-accordion .faq-item:first-child .card-header {
-    border-radius: 9px 9px 0 0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
 #faq-container #faq-accordion .faq-item:last-child,
 #faq-container #faq-accordion .faq-item:last-child .card-header {
-    border-radius: 0 0 9px 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 #faq-container #mobile-topic-list {
