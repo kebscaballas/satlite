@@ -92,6 +92,10 @@ a.link-btn.light {
     border-color: #f27a08;
 }
 
+a.link-btn.white-bg.no-border {
+    border-color: #ffffff;
+}
+
 h3.emphasized-heading {
     font-size: 24px;
     font-weight: 600;
