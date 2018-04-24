@@ -1,0 +1,83 @@
+#channel-lineup {
+    padding: 40px 0;
+}
+
+#loading-steps {
+    background-color: #fda70a;
+    padding-bottom: 40px;
+}
+
+#loading-steps p {
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#loading-steps span {
+	color: #ffffff;
+}
+
+#loading-steps li {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+#loading-steps .steps-heading {
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+#loading-steps .numbering {
+    font-size: 18px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#loading-steps .step {
+    padding-top: 50px;
+}
+
+#loading-steps .step img {
+    margin: 10px 0 20px;
+}
+
+#channel-lineup #channel-table {
+	table-layout: fixed;
+}
+
+#channel-lineup #channel-table th, #channel-lineup #channel-table td {
+	border: 1px solid #dddddd;
+}
+
+#channel-lineup #channel-table th+th, #channel-lineup #channel-table td+td {
+	text-align: center;
+}
+
+#channel-lineup #channel-table tr:first-child th {
+	border: 0;
+}
+
+#channel-lineup #channel-table tr:last-child th {
+	color: #ffffff;
+}
+
+#channel-lineup #channel-table tr:last-child th:nth-child(even) {
+	background-color: #fdb20c;
+}
+
+#channel-lineup #channel-table tr:last-child th:nth-child(odd) {
+	background-color: #4d4d4d;
+}
+
+#channel-lineup #channel-table .channels-header {
+	background-color: #f27a08;
+
+}
+
+#channel-lineup .icon-container img {
+	max-width: 70px;
+}
