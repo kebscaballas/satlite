@@ -92,6 +92,12 @@ a.link-btn.light {
     border-color: #f27a08;
 }
 
+a.link-btn.solid {
+    background-color: #f27a08;
+    color: #ffffff;
+    border: 1px solid #f27a08;
+}
+
 a.link-btn.white-bg.no-border {
     border-color: #ffffff;
 }

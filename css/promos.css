@@ -1,0 +1,52 @@
+#promo-banner-container .banner {
+    width: 100%;
+}
+
+#promo-content {
+    padding: 70px 0;
+}
+
+#promo-list {
+    padding-bottom: 80px;
+    background-color: #fccd4d;
+}
+
+#promo-list .items-container .item {
+    background-color: #ffffff;
+    border: 3px solid #f27a08;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 9px 2px -1px #e3d8c5;
+    margin-top: 50px;
+}
+
+#promo-list .items-container .item .item-name {
+    background-color: #f27a08;
+    padding: 15px 20px;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+}
+
+#promo-list .items-container .item .item-content {
+    padding: 15px 20px;
+}
+
+#promo-list .items-container .item .promo-period-container {
+    padding-left: 10px;
+}
+
+#promo-list .items-container .item .promo-period-container p {
+    margin: 0;
+    color: #f27a08;
+}
+
+#promo-list .items-container .item .cta-container {
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+}
+
+#promo-list .items-container .item .cta-container .link-btn {
+    padding: 7px 50px;
+}
